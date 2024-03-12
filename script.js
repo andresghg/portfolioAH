@@ -42,7 +42,7 @@ window.onscroll = function(){
 
 function redirect() {
     // window.location.href="file:///C:/Users/Andres%20Hernandez/Downloads/Profile.pdf";
-    window.open("img/Profile.pdf",'Download');
+    window.open("img/Profile2.pdf",'Download');
     
 }
 
