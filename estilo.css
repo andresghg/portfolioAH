@@ -134,10 +134,12 @@ html{
 .sobremi .fila{
     display: flex;
 }
+
 .sobremi .fila .col
 {
     width: 50%;
 }
+
 .sobremi .fila .col h3{
     font-size: 28px;
     font-family: 'Righteous';
@@ -358,6 +360,107 @@ html{
     0%{width: 0%;}
     100%{width: 70%;}
 }
+
+.skills .skill .express {
+    width: 0%;
+    animation: 2s express forwards;
+}
+
+@keyframes express {
+    0%{width: 0%;}
+    100%{width: 30%;}
+}
+
+.skills .skill .react {
+    width: 0%;
+    animation: 2s react forwards;
+}
+
+@keyframes react {
+    0%{width: 0%;}
+    100%{width: 30%;}
+}
+
+.skills .skill .vue {
+    width: 0%;
+    animation: 2s vue forwards;
+}
+
+@keyframes vue {
+    0%{width: 0%;}
+    100%{width: 30%;}
+}
+
+.skills .skill .jest {
+    width: 0%;
+    animation: 2s jest forwards;
+}
+
+@keyframes jest {
+    0%{width: 0%;}
+    100%{width: 30%;}
+}
+
+.skills .skill .sequelize {
+    width: 0%;
+    animation: 2s sequelize forwards;
+}
+
+@keyframes sequelize {
+    0%{width: 0%;}
+    100%{width: 30%;}
+}
+
+.skills .skill .node {
+    width: 0%;
+    animation: 2s node forwards;
+}
+
+@keyframes node {
+    0%{width: 0%;}
+    100%{width: 30%;}
+}
+
+.skills .skill .mongo {
+    width: 0%;
+    animation: 2s mongo forwards;
+}
+
+@keyframes mongo {
+    0%{width: 0%;}
+    100%{width: 30%;}
+}
+
+.skills .skill .cypress {
+    width: 0%;
+    animation: 2s cypress forwards;
+}
+
+@keyframes cypress {
+    0%{width: 0%;}
+    100%{width: 30%;}
+}
+
+.skills .skill .pwa {
+    width: 0%;
+    animation: 2s pwa forwards;
+}
+
+@keyframes pwa {
+    0%{width: 0%;}
+    100%{width: 20%;}
+}
+
+.skills .skill .tailwind {
+    width: 0%;
+    animation: 2s tailwind forwards;
+}
+
+@keyframes tailwind {
+    0%{width: 0%;}
+    100%{width: 30%;}
+}
+
 /* SECCION CURRICULUM */
 .curriculum{
     background-color: #1e2326;

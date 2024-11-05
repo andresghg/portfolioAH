@@ -31,6 +31,16 @@ function efectoHabilidades(){
         habilidades[7].classList.add("creatividad");
         habilidades[8].classList.add("dedicacion");
         habilidades[9].classList.add("proyect");
+        habilidades[10].classList.add("express");
+        habilidades[11].classList.add("react");
+        habilidades[12].classList.add("vue");
+        habilidades[13].classList.add("jest");
+        habilidades[14].classList.add("sequelize");
+        habilidades[15].classList.add("node");
+        habilidades[16].classList.add("mongo");
+        habilidades[17].classList.add("cypress");
+        habilidades[18].classList.add("pwa");
+        habilidades[19].classList.add("tailwind");
     }
 }
 
